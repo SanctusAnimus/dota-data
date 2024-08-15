@@ -6431,6 +6431,10 @@
         "shortName": "IGNORE_CHANNEL"
       },
       {
+        "name": "DOTA_ABILITY_BEHAVIOR_IGNORE_INVISIBLE",
+        "shortName": "IGNORE_INVISIBLE"
+      },
+      {
         "name": "DOTA_ABILITY_BEHAVIOR_IGNORE_MUTED",
         "shortName": "IGNORE_MUTED"
       },

@@ -17274,6 +17274,16 @@
       },
       {
         "kind": "function",
+        "name": "GetModifierMPRegenAmplify_Percentage_Unique",
+        "available": "both",
+        "abstract": true,
+        "args": [],
+        "returns": [
+          "nil"
+        ]
+      },
+      {
+        "kind": "function",
         "name": "GetModifierMPRestoreAmplify_Percentage",
         "available": "both",
         "abstract": true,
@@ -18091,6 +18101,16 @@
       {
         "kind": "function",
         "name": "GetModifierSpellLifestealRegenAmplify_Percentage",
+        "available": "both",
+        "abstract": true,
+        "args": [],
+        "returns": [
+          "nil"
+        ]
+      },
+      {
+        "kind": "function",
+        "name": "GetModifierSpellLifestealRegenAmplify_Percentage_Unique",
         "available": "both",
         "abstract": true,
         "args": [],
@@ -19013,6 +19033,16 @@
       {
         "kind": "function",
         "name": "OnForceProcMagicStick",
+        "available": "both",
+        "abstract": true,
+        "args": [],
+        "returns": [
+          "nil"
+        ]
+      },
+      {
+        "kind": "function",
+        "name": "OnFoWTeamChanged",
         "available": "both",
         "abstract": true,
         "args": [],
