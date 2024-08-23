@@ -15454,6 +15454,16 @@
       },
       {
         "kind": "function",
+        "name": "GetCriticalStrikeBonus",
+        "available": "both",
+        "abstract": true,
+        "args": [],
+        "returns": [
+          "nil"
+        ]
+      },
+      {
+        "kind": "function",
         "name": "GetDisableAutoAttack",
         "available": "both",
         "abstract": true,

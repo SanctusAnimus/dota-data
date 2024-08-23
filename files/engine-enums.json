@@ -2052,6 +2052,10 @@
         "shortName": "DOTA_SAND_KING_BURROW_OUT"
       },
       {
+        "name": "ACT_DOTA_SHADOW_VAULT",
+        "shortName": "DOTA_SHADOW_VAULT"
+      },
+      {
         "name": "ACT_DOTA_SHAKE",
         "shortName": "DOTA_SHAKE"
       },
@@ -6359,6 +6363,10 @@
     "name": "AbilityBehavior",
     "members": [
       {
+        "name": "DOTA_ABILITY_BEHAVIOR_AFFECTED_BY_MUTE",
+        "shortName": "AFFECTED_BY_MUTE"
+      },
+      {
         "name": "DOTA_ABILITY_BEHAVIOR_ALT_CASTABLE",
         "shortName": "ALT_CASTABLE"
       },
@@ -6453,6 +6461,10 @@
       {
         "name": "DOTA_ABILITY_BEHAVIOR_INNATE_UI",
         "shortName": "INNATE_UI"
+      },
+      {
+        "name": "DOTA_ABILITY_BEHAVIOR_IS_FAKE_ITEM",
+        "shortName": "IS_FAKE_ITEM"
       },
       {
         "name": "DOTA_ABILITY_BEHAVIOR_ITEM",

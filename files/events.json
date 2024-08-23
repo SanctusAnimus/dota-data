@@ -4147,7 +4147,7 @@
   {
     "name": "client_disconnect",
     "sourceFile": "game",
-    "local": true,
+    "local": false,
     "fields": [
       {
         "name": "reason_code",
