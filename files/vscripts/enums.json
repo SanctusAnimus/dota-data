@@ -9028,47 +9028,47 @@
       },
       {
         "name": "ACT_DOTA_DISABLED_END",
-        "value": 1778
-      },
-      {
-        "name": "ACT_DOTA_RADIANT_CREEP_HAMMER",
-        "value": 1781
-      },
-      {
-        "name": "ACT_DOTA_RELAX_IN",
-        "value": 1782
-      },
-      {
-        "name": "ACT_DOTA_RELAX_OUT",
-        "value": 1783
-      },
-      {
-        "name": "ACT_DOTA_CAST_FENCE",
-        "value": 1784
-      },
-      {
-        "name": "ACT_DOTA_SPWN",
-        "value": 1785
+        "value": 1779
       },
       {
         "name": "ACT_DOTA_CYCLONE",
-        "value": 1786
+        "value": 1780
       },
       {
         "name": "ACT_DOTA_IMPALE",
-        "value": 1787
+        "value": 1781
       },
       {
         "name": "ACT_DOTA_TORRENT",
-        "value": 1788
+        "value": 1782
       },
       {
         "name": "ACT_DOTA_VOODOO_REST",
-        "value": 1789
+        "value": 1783
       },
       {
         "name": "ACT_DOTA_RUN_ALT",
+        "value": 1784
+      },
+      {
+        "name": "ACT_DOTA_RADIANT_CREEP_HAMMER",
+        "value": 1789
+      },
+      {
+        "name": "ACT_DOTA_RELAX_IN",
         "value": 1790
+      },
+      {
+        "name": "ACT_DOTA_RELAX_OUT",
+        "value": 1791
+      },
+      {
+        "name": "ACT_DOTA_CAST_FENCE",
+        "value": 1792
+      },
+      {
+        "name": "ACT_DOTA_SPWN",
+        "value": 1793
       }
     ]
   },
@@ -10853,8 +10853,18 @@
         "value": 350
       },
       {
-        "name": "MODIFIER_FUNCTION_LAST",
+        "name": "MODIFIER_PROPERTY_SUPPRESS_ATTACK_PROCS",
+        "description": "Method Name: `GetSuppressAttackProcs`",
         "value": 351
+      },
+      {
+        "name": "MODIFIER_EVENT_ON_ABILITY_TOGGLED",
+        "description": "Method Name: `OnAbilityToggled`",
+        "value": 352
+      },
+      {
+        "name": "MODIFIER_FUNCTION_LAST",
+        "value": 353
       },
       {
         "name": "MODIFIER_FUNCTION_INVALID",

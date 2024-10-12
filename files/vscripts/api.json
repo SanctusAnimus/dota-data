@@ -18517,6 +18517,16 @@
       },
       {
         "kind": "function",
+        "name": "GetSuppressAttackProcs",
+        "available": "both",
+        "abstract": true,
+        "args": [],
+        "returns": [
+          "nil"
+        ]
+      },
+      {
+        "kind": "function",
         "name": "GetSuppressCleave",
         "available": "both",
         "abstract": true,
@@ -18710,6 +18720,16 @@
             ]
           }
         ],
+        "returns": [
+          "nil"
+        ]
+      },
+      {
+        "kind": "function",
+        "name": "OnAbilityToggled",
+        "available": "both",
+        "abstract": true,
+        "args": [],
         "returns": [
           "nil"
         ]

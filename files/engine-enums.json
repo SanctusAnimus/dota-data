@@ -2684,10 +2684,6 @@
         "shortName": "IDLE_AIM_AGITATED"
       },
       {
-        "name": "ACT_IDLE_AIM_AUTOGUN",
-        "shortName": "IDLE_AIM_AUTOGUN"
-      },
-      {
         "name": "ACT_IDLE_AIM_DUAL",
         "shortName": "IDLE_AIM_DUAL"
       },

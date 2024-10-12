@@ -5266,8 +5266,18 @@
         "value": 350
       },
       {
-        "name": "MODIFIER_FUNCTION_LAST",
+        "name": "MODIFIER_PROPERTY_SUPPRESS_ATTACK_PROCS",
+        "description": "Method Name: `GetSuppressAttackProcs`",
         "value": 351
+      },
+      {
+        "name": "MODIFIER_EVENT_ON_ABILITY_TOGGLED",
+        "description": "Method Name: `OnAbilityToggled`",
+        "value": 352
+      },
+      {
+        "name": "MODIFIER_FUNCTION_LAST",
+        "value": 353
       },
       {
         "name": "MODIFIER_FUNCTION_INVALID",
