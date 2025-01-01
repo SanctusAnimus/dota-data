@@ -10586,7 +10586,20 @@
         "returns": [
           "bool"
         ],
-        "args": []
+        "args": [
+          {
+            "name": "ability",
+            "types": [
+              "handle"
+            ]
+          },
+          {
+            "name": "buff",
+            "types": [
+              "handle"
+            ]
+          }
+        ]
       },
       {
         "kind": "function",
@@ -15454,6 +15467,16 @@
       },
       {
         "kind": "function",
+        "name": "GetConvertAttackPhysicalToPure",
+        "available": "both",
+        "abstract": true,
+        "args": [],
+        "returns": [
+          "nil"
+        ]
+      },
+      {
+        "kind": "function",
         "name": "GetCriticalStrikeBonus",
         "available": "both",
         "abstract": true,
@@ -15758,6 +15781,16 @@
         "args": [],
         "returns": [
           "float"
+        ]
+      },
+      {
+        "kind": "function",
+        "name": "GetModifierAvoidAttackProcs",
+        "available": "both",
+        "abstract": true,
+        "args": [],
+        "returns": [
+          "nil"
         ]
       },
       {
@@ -32385,7 +32418,7 @@
           {
             "name": "tagName",
             "types": [
-              "string"
+              "unknown"
             ]
           }
         ]
@@ -33990,7 +34023,7 @@
         ],
         "args": [
           {
-            "name": "bitsDamageType",
+            "name": "damageType",
             "types": [
               "int"
             ]
@@ -34056,7 +34089,7 @@
         "name": "GetDamageType",
         "available": "server",
         "returns": [
-          "int"
+          "unknown"
         ],
         "args": []
       },
@@ -34105,7 +34138,7 @@
         ],
         "args": [
           {
-            "name": "bitsToTest",
+            "name": "damageType",
             "types": [
               "int"
             ]
@@ -34233,7 +34266,7 @@
         ],
         "args": [
           {
-            "name": "bitsDamageType",
+            "name": "damageType",
             "types": [
               "int"
             ]

@@ -2626,12 +2626,6 @@
     "fields": []
   },
   {
-    "name": "dota_starting_position_changed",
-    "sourceFile": "game",
-    "local": false,
-    "fields": []
-  },
-  {
     "name": "dota_team_neutral_stash_items_changed",
     "sourceFile": "game",
     "local": false,
@@ -2696,12 +2690,6 @@
   },
   {
     "name": "dota_item_suggestions_changed",
-    "sourceFile": "game",
-    "local": false,
-    "fields": []
-  },
-  {
-    "name": "dota_estimated_match_duration_changed",
     "sourceFile": "game",
     "local": false,
     "fields": []

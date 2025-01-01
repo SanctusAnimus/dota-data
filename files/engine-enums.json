@@ -231,6 +231,10 @@
         "shortName": "JUGG_CRIT"
       },
       {
+        "name": "DOTA_PSEUDO_RANDOM_KEZ_SAI",
+        "shortName": "KEZ_SAI"
+      },
+      {
         "name": "DOTA_PSEUDO_RANDOM_LEGION_MOMENT",
         "shortName": "LEGION_MOMENT"
       },
@@ -1792,6 +1796,30 @@
         "shortName": "DOTA_JAKIRO_LIQUIDFIRE_START"
       },
       {
+        "name": "ACT_DOTA_KEZ_KATANA_IMPALE",
+        "shortName": "DOTA_KEZ_KATANA_IMPALE"
+      },
+      {
+        "name": "ACT_DOTA_KEZ_KATANA_IMPALE_FAST",
+        "shortName": "DOTA_KEZ_KATANA_IMPALE_FAST"
+      },
+      {
+        "name": "ACT_DOTA_KEZ_KATANA_ULT_CHAIN_A",
+        "shortName": "DOTA_KEZ_KATANA_ULT_CHAIN_A"
+      },
+      {
+        "name": "ACT_DOTA_KEZ_KATANA_ULT_CHAIN_B",
+        "shortName": "DOTA_KEZ_KATANA_ULT_CHAIN_B"
+      },
+      {
+        "name": "ACT_DOTA_KEZ_KATANA_ULT_END",
+        "shortName": "DOTA_KEZ_KATANA_ULT_END"
+      },
+      {
+        "name": "ACT_DOTA_KEZ_KATANA_ULT_START",
+        "shortName": "DOTA_KEZ_KATANA_ULT_START"
+      },
+      {
         "name": "ACT_DOTA_KILLTAUNT",
         "shortName": "DOTA_KILLTAUNT"
       },
@@ -2682,6 +2710,10 @@
       {
         "name": "ACT_IDLE_AIM_AGITATED",
         "shortName": "IDLE_AIM_AGITATED"
+      },
+      {
+        "name": "ACT_IDLE_AIM_AUTOGUN",
+        "shortName": "IDLE_AIM_AUTOGUN"
       },
       {
         "name": "ACT_IDLE_AIM_DUAL",
