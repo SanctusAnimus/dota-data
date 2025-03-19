@@ -4804,6 +4804,10 @@
         "shortName": "RUN_PROTECTED"
       },
       {
+        "name": "ACT_RUN_RELAXED",
+        "shortName": "RUN_RELAXED"
+      },
+      {
         "name": "ACT_RUN_RIFLE",
         "shortName": "RUN_RIFLE"
       },
@@ -5878,10 +5882,6 @@
       {
         "name": "ACT_WALK_STEALTH_PISTOL",
         "shortName": "WALK_STEALTH_PISTOL"
-      },
-      {
-        "name": "ACT_WALK_STIMULATED",
-        "shortName": "WALK_STIMULATED"
       },
       {
         "name": "ACT_WALK_SUITCASE",
