@@ -1,13 +1,13 @@
-ClientVersion=6433
-ServerVersion=6433
+ClientVersion=6434
+ServerVersion=6434
 ProductName=dota2_workshop
 appID=570
 ServerAppID=373310
 CustomGameServerAppID=471280
 ToolsAppID=316570
-SourceRevision=9780829
-VersionDate=May 26 2025
-VersionTime=15:46:39
+SourceRevision=9782674
+VersionDate=May 27 2025
+VersionTime=12:29:28
 $> dump_panorama_css_properties
 === align ===
 &lt;Needs a description&gt;
@@ -33973,7 +33973,7 @@ LUA Memory usage warning: The VM has hit a new high usage of 16,777,216 bytes.
   },{
     "kind":"constant",
     "name":"ACD_DOTA_IDLE",
-    "value":1790
+    "value":1789
   },{
     "kind":"constant",
     "name":"ACTIVATE_TYPE_DATAUPDATE_CREATION",
@@ -34937,7 +34937,7 @@ LUA Memory usage warning: The VM has hit a new high usage of 16,777,216 bytes.
   },{
     "kind":"constant",
     "name":"ACT_DOTA_DISABLED_END",
-    "value":1789
+    "value":1790
   },{
     "kind":"constant",
     "name":"ACT_DOTA_DP_SPIRIT_SIPHON",
