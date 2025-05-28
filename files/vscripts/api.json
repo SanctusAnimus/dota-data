@@ -18697,6 +18697,16 @@
       },
       {
         "kind": "function",
+        "name": "GetRequiredLevel",
+        "available": "both",
+        "abstract": true,
+        "args": [],
+        "returns": [
+          "nil"
+        ]
+      },
+      {
+        "kind": "function",
         "name": "GetSkipAttackRegulator",
         "available": "both",
         "abstract": true,

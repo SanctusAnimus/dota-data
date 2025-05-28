@@ -5432,8 +5432,13 @@
         "value": 377
       },
       {
-        "name": "MODIFIER_FUNCTION_LAST",
+        "name": "MODIFIER_PROPERTY_REQUIRED_LEVEL",
+        "description": "Method Name: `GetRequiredLevel`",
         "value": 378
+      },
+      {
+        "name": "MODIFIER_FUNCTION_LAST",
+        "value": 379
       },
       {
         "name": "MODIFIER_FUNCTION_INVALID",

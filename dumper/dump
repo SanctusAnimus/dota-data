@@ -1,13 +1,13 @@
-ClientVersion=6434
-ServerVersion=6434
+ClientVersion=6438
+ServerVersion=6438
 ProductName=dota2_workshop
 appID=570
 ServerAppID=373310
 CustomGameServerAppID=471280
 ToolsAppID=316570
-SourceRevision=9782674
+SourceRevision=9785508
 VersionDate=May 27 2025
-VersionTime=12:29:28
+VersionTime=22:10:12
 $> dump_panorama_css_properties
 === align ===
 &lt;Needs a description&gt;
@@ -2709,7 +2709,9 @@ declare enum modifierfunction
     /** GetModifierPropertyConsumableUseSpeed */
     MODIFIER_PROPERTY_CONSUMABLE_USE_SPEED = 376,
     MODIFIER_PROPERTY_FORCE_NETWORK_TRANSMIT = 377,
-    MODIFIER_FUNCTION_LAST = 378,
+    /** GetRequiredLevel */
+    MODIFIER_PROPERTY_REQUIRED_LEVEL = 378,
+    MODIFIER_FUNCTION_LAST = 379,
     MODIFIER_FUNCTION_INVALID = 65535,
 }
 
@@ -16510,7 +16512,7 @@ Initializing script VM...
     "enum":"modifierfunction",
     "kind":"constant",
     "name":"MODIFIER_FUNCTION_LAST",
-    "value":378
+    "value":379
   },{
     "enum":"modifierpriority",
     "kind":"constant",
@@ -18039,6 +18041,12 @@ Initializing script VM...
     "kind":"constant",
     "name":"MODIFIER_PROPERTY_REINCARNATION_SUPPRESS_FX",
     "value":123
+  },{
+    "description":"GetRequiredLevel",
+    "enum":"modifierfunction",
+    "kind":"constant",
+    "name":"MODIFIER_PROPERTY_REQUIRED_LEVEL",
+    "value":378
   },{
     "description":"GetModifierConstantRespawnTime",
     "enum":"modifierfunction",
@@ -42548,7 +42556,7 @@ LUA Memory usage warning: The VM has hit a new high usage of 16,777,216 bytes.
     "enum":"modifierfunction",
     "kind":"constant",
     "name":"MODIFIER_FUNCTION_LAST",
-    "value":378
+    "value":379
   },{
     "enum":"modifierpriority",
     "kind":"constant",
@@ -44077,6 +44085,12 @@ LUA Memory usage warning: The VM has hit a new high usage of 16,777,216 bytes.
     "kind":"constant",
     "name":"MODIFIER_PROPERTY_REINCARNATION_SUPPRESS_FX",
     "value":123
+  },{
+    "description":"GetRequiredLevel",
+    "enum":"modifierfunction",
+    "kind":"constant",
+    "name":"MODIFIER_PROPERTY_REQUIRED_LEVEL",
+    "value":378
   },{
     "description":"GetModifierConstantRespawnTime",
     "enum":"modifierfunction",
@@ -51764,7 +51778,9 @@ declare enum modifierfunction
     /** GetModifierPropertyConsumableUseSpeed */
     MODIFIER_PROPERTY_CONSUMABLE_USE_SPEED = 376,
     MODIFIER_PROPERTY_FORCE_NETWORK_TRANSMIT = 377,
-    MODIFIER_FUNCTION_LAST = 378,
+    /** GetRequiredLevel */
+    MODIFIER_PROPERTY_REQUIRED_LEVEL = 378,
+    MODIFIER_FUNCTION_LAST = 379,
     MODIFIER_FUNCTION_INVALID = 65535,
 }
 
