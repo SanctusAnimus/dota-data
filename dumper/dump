@@ -1,13 +1,13 @@
-ClientVersion=6449
-ServerVersion=6449
+ClientVersion=6465
+ServerVersion=6465
 ProductName=dota2_workshop
 appID=570
 ServerAppID=373310
 CustomGameServerAppID=471280
 ToolsAppID=316570
-SourceRevision=9797684
-VersionDate=Jun 02 2025
-VersionTime=09:35:50
+SourceRevision=9828844
+VersionDate=Jun 12 2025
+VersionTime=18:03:36
 $> dump_panorama_css_properties
 === align ===
 &lt;Needs a description&gt;
@@ -2708,10 +2708,9 @@ declare enum modifierfunction
     MODIFIER_PROPERTY_UPGRADE_NEUTRAL_ARTIFACTS = 375,
     /** GetModifierPropertyConsumableUseSpeed */
     MODIFIER_PROPERTY_CONSUMABLE_USE_SPEED = 376,
-    MODIFIER_PROPERTY_FORCE_NETWORK_TRANSMIT = 377,
     /** GetRequiredLevel */
-    MODIFIER_PROPERTY_REQUIRED_LEVEL = 378,
-    MODIFIER_FUNCTION_LAST = 379,
+    MODIFIER_PROPERTY_REQUIRED_LEVEL = 377,
+    MODIFIER_FUNCTION_LAST = 378,
     MODIFIER_FUNCTION_INVALID = 65535,
 }
 
@@ -16512,7 +16511,7 @@ Initializing script VM...
     "enum":"modifierfunction",
     "kind":"constant",
     "name":"MODIFIER_FUNCTION_LAST",
-    "value":379
+    "value":378
   },{
     "enum":"modifierpriority",
     "kind":"constant",
@@ -17167,11 +17166,6 @@ Initializing script VM...
     "kind":"constant",
     "name":"MODIFIER_PROPERTY_FORCE_MAX_MANA",
     "value":314
-  },{
-    "enum":"modifierfunction",
-    "kind":"constant",
-    "name":"MODIFIER_PROPERTY_FORCE_NETWORK_TRANSMIT",
-    "value":377
   },{
     "description":"GetModifierFoWTeam",
     "enum":"modifierfunction",
@@ -18046,7 +18040,7 @@ Initializing script VM...
     "enum":"modifierfunction",
     "kind":"constant",
     "name":"MODIFIER_PROPERTY_REQUIRED_LEVEL",
-    "value":378
+    "value":377
   },{
     "description":"GetModifierConstantRespawnTime",
     "enum":"modifierfunction",
@@ -42556,7 +42550,7 @@ LUA Memory usage warning: The VM has hit a new high usage of 16,777,216 bytes.
     "enum":"modifierfunction",
     "kind":"constant",
     "name":"MODIFIER_FUNCTION_LAST",
-    "value":379
+    "value":378
   },{
     "enum":"modifierpriority",
     "kind":"constant",
@@ -43211,11 +43205,6 @@ LUA Memory usage warning: The VM has hit a new high usage of 16,777,216 bytes.
     "kind":"constant",
     "name":"MODIFIER_PROPERTY_FORCE_MAX_MANA",
     "value":314
-  },{
-    "enum":"modifierfunction",
-    "kind":"constant",
-    "name":"MODIFIER_PROPERTY_FORCE_NETWORK_TRANSMIT",
-    "value":377
   },{
     "description":"GetModifierFoWTeam",
     "enum":"modifierfunction",
@@ -44090,7 +44079,7 @@ LUA Memory usage warning: The VM has hit a new high usage of 16,777,216 bytes.
     "enum":"modifierfunction",
     "kind":"constant",
     "name":"MODIFIER_PROPERTY_REQUIRED_LEVEL",
-    "value":378
+    "value":377
   },{
     "description":"GetModifierConstantRespawnTime",
     "enum":"modifierfunction",
@@ -51777,10 +51766,9 @@ declare enum modifierfunction
     MODIFIER_PROPERTY_UPGRADE_NEUTRAL_ARTIFACTS = 375,
     /** GetModifierPropertyConsumableUseSpeed */
     MODIFIER_PROPERTY_CONSUMABLE_USE_SPEED = 376,
-    MODIFIER_PROPERTY_FORCE_NETWORK_TRANSMIT = 377,
     /** GetRequiredLevel */
-    MODIFIER_PROPERTY_REQUIRED_LEVEL = 378,
-    MODIFIER_FUNCTION_LAST = 379,
+    MODIFIER_PROPERTY_REQUIRED_LEVEL = 377,
+    MODIFIER_FUNCTION_LAST = 378,
     MODIFIER_FUNCTION_INVALID = 65535,
 }
 
