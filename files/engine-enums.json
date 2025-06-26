@@ -6694,19 +6694,19 @@
     "name": "AbilityType",
     "members": [
       {
-        "name": "DOTA_ABILITY_TYPE_ATTRIBUTES",
+        "name": "ABILITY_TYPE_ATTRIBUTES",
         "shortName": "ATTRIBUTES"
       },
       {
-        "name": "DOTA_ABILITY_TYPE_BASIC",
+        "name": "ABILITY_TYPE_BASIC",
         "shortName": "BASIC"
       },
       {
-        "name": "DOTA_ABILITY_TYPE_HIDDEN",
+        "name": "ABILITY_TYPE_HIDDEN",
         "shortName": "HIDDEN"
       },
       {
-        "name": "DOTA_ABILITY_TYPE_ULTIMATE",
+        "name": "ABILITY_TYPE_ULTIMATE",
         "shortName": "ULTIMATE"
       }
     ]

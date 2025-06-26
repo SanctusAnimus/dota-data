@@ -16636,16 +16636,6 @@
       },
       {
         "kind": "function",
-        "name": "GetModifierHPRegen_CanBeNegative",
-        "available": "both",
-        "abstract": true,
-        "args": [],
-        "returns": [
-          "nil"
-        ]
-      },
-      {
-        "kind": "function",
         "name": "GetModifierHPRegenAmplify_Percentage",
         "available": "both",
         "abstract": true,
@@ -18703,6 +18693,16 @@
             "kind": "literal",
             "value": 1
           }
+        ]
+      },
+      {
+        "kind": "function",
+        "name": "GetRequiredLevel",
+        "available": "both",
+        "abstract": true,
+        "args": [],
+        "returns": [
+          "nil"
         ]
       },
       {
