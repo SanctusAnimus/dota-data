@@ -398,6 +398,10 @@
       {
         "name": "DOTA_GAMEMODE_COACHES_CHALLENGE",
         "value": 25
+      },
+      {
+        "name": "DOTA_GAMEMODE_BOT_CHALLENGE",
+        "value": 26
       }
     ]
   },
@@ -705,6 +709,10 @@
       {
         "name": "OVERHEAD_ALERT_FORCE_MISS",
         "value": 25
+      },
+      {
+        "name": "OVERHEAD_ALERT_AEGIS",
+        "value": 26
       }
     ]
   },
@@ -3529,20 +3537,24 @@
         "value": 100
       },
       {
+        "name": "DOTA_LOADOUT_TYPE_PET_EFFIGY",
+        "value": 101
+      },
+      {
         "name": "DOTA_PLAYER_LOADOUT_START",
         "value": 70
       },
       {
         "name": "DOTA_PLAYER_LOADOUT_END",
-        "value": 100
-      },
-      {
-        "name": "DOTA_LOADOUT_TYPE_NONE",
         "value": 101
       },
       {
-        "name": "DOTA_LOADOUT_TYPE_COUNT",
+        "name": "DOTA_LOADOUT_TYPE_NONE",
         "value": 102
+      },
+      {
+        "name": "DOTA_LOADOUT_TYPE_COUNT",
+        "value": 103
       }
     ]
   },
@@ -5733,6 +5745,10 @@
       {
         "name": "MODIFIER_ATTRIBUTE_IGNORE_DODGE",
         "value": 16
+      },
+      {
+        "name": "MODIFIER_ATTRIBUTE_DUPLICATED",
+        "value": 32
       }
     ]
   },
@@ -6516,744 +6532,760 @@
         "value": 61
       },
       {
-        "name": "DOTA_KEYBIND_ABILITY_PRIMARY1_QUICKCAST",
+        "name": "DOTA_KEYBIND_NEUTRAL_ITEM_SELECT1",
         "value": 62
       },
       {
-        "name": "DOTA_KEYBIND_ABILITY_PRIMARY2_QUICKCAST",
+        "name": "DOTA_KEYBIND_NEUTRAL_ITEM_SELECT2",
         "value": 63
       },
       {
-        "name": "DOTA_KEYBIND_ABILITY_PRIMARY3_QUICKCAST",
+        "name": "DOTA_KEYBIND_NEUTRAL_ITEM_SELECT3",
         "value": 64
       },
       {
-        "name": "DOTA_KEYBIND_ABILITY_SECONDARY1_QUICKCAST",
+        "name": "DOTA_KEYBIND_NEUTRAL_ITEM_SELECT4",
         "value": 65
       },
       {
-        "name": "DOTA_KEYBIND_ABILITY_SECONDARY2_QUICKCAST",
+        "name": "DOTA_KEYBIND_ABILITY_PRIMARY1_QUICKCAST",
         "value": 66
       },
       {
-        "name": "DOTA_KEYBIND_ABILITY_ULTIMATE_QUICKCAST",
+        "name": "DOTA_KEYBIND_ABILITY_PRIMARY2_QUICKCAST",
         "value": 67
       },
       {
-        "name": "DOTA_KEYBIND_ABILITY_PRIMARY1_EXPLICIT_AUTOCAST",
+        "name": "DOTA_KEYBIND_ABILITY_PRIMARY3_QUICKCAST",
         "value": 68
       },
       {
-        "name": "DOTA_KEYBIND_ABILITY_PRIMARY2_EXPLICIT_AUTOCAST",
+        "name": "DOTA_KEYBIND_ABILITY_SECONDARY1_QUICKCAST",
         "value": 69
       },
       {
-        "name": "DOTA_KEYBIND_ABILITY_PRIMARY3_EXPLICIT_AUTOCAST",
+        "name": "DOTA_KEYBIND_ABILITY_SECONDARY2_QUICKCAST",
         "value": 70
       },
       {
-        "name": "DOTA_KEYBIND_ABILITY_SECONDARY1_EXPLICIT_AUTOCAST",
+        "name": "DOTA_KEYBIND_ABILITY_ULTIMATE_QUICKCAST",
         "value": 71
       },
       {
-        "name": "DOTA_KEYBIND_ABILITY_SECONDARY2_EXPLICIT_AUTOCAST",
+        "name": "DOTA_KEYBIND_ABILITY_PRIMARY1_EXPLICIT_AUTOCAST",
         "value": 72
       },
       {
-        "name": "DOTA_KEYBIND_ABILITY_ULTIMATE_EXPLICIT_AUTOCAST",
+        "name": "DOTA_KEYBIND_ABILITY_PRIMARY2_EXPLICIT_AUTOCAST",
         "value": 73
       },
       {
-        "name": "DOTA_KEYBIND_ABILITY_PRIMARY1_QUICKCAST_AUTOCAST",
+        "name": "DOTA_KEYBIND_ABILITY_PRIMARY3_EXPLICIT_AUTOCAST",
         "value": 74
       },
       {
-        "name": "DOTA_KEYBIND_ABILITY_PRIMARY2_QUICKCAST_AUTOCAST",
+        "name": "DOTA_KEYBIND_ABILITY_SECONDARY1_EXPLICIT_AUTOCAST",
         "value": 75
       },
       {
-        "name": "DOTA_KEYBIND_ABILITY_PRIMARY3_QUICKCAST_AUTOCAST",
+        "name": "DOTA_KEYBIND_ABILITY_SECONDARY2_EXPLICIT_AUTOCAST",
         "value": 76
       },
       {
-        "name": "DOTA_KEYBIND_ABILITY_SECONDARY1_QUICKCAST_AUTOCAST",
+        "name": "DOTA_KEYBIND_ABILITY_ULTIMATE_EXPLICIT_AUTOCAST",
         "value": 77
       },
       {
-        "name": "DOTA_KEYBIND_ABILITY_SECONDARY2_QUICKCAST_AUTOCAST",
+        "name": "DOTA_KEYBIND_ABILITY_PRIMARY1_QUICKCAST_AUTOCAST",
         "value": 78
       },
       {
-        "name": "DOTA_KEYBIND_ABILITY_ULTIMATE_QUICKCAST_AUTOCAST",
+        "name": "DOTA_KEYBIND_ABILITY_PRIMARY2_QUICKCAST_AUTOCAST",
         "value": 79
       },
       {
-        "name": "DOTA_KEYBIND_ABILITY_PRIMARY1_AUTOMATIC_AUTOCAST",
+        "name": "DOTA_KEYBIND_ABILITY_PRIMARY3_QUICKCAST_AUTOCAST",
         "value": 80
       },
       {
-        "name": "DOTA_KEYBIND_ABILITY_PRIMARY2_AUTOMATIC_AUTOCAST",
+        "name": "DOTA_KEYBIND_ABILITY_SECONDARY1_QUICKCAST_AUTOCAST",
         "value": 81
       },
       {
-        "name": "DOTA_KEYBIND_ABILITY_PRIMARY3_AUTOMATIC_AUTOCAST",
+        "name": "DOTA_KEYBIND_ABILITY_SECONDARY2_QUICKCAST_AUTOCAST",
         "value": 82
       },
       {
-        "name": "DOTA_KEYBIND_ABILITY_SECONDARY1_AUTOMATIC_AUTOCAST",
+        "name": "DOTA_KEYBIND_ABILITY_ULTIMATE_QUICKCAST_AUTOCAST",
         "value": 83
       },
       {
-        "name": "DOTA_KEYBIND_ABILITY_SECONDARY2_AUTOMATIC_AUTOCAST",
+        "name": "DOTA_KEYBIND_ABILITY_PRIMARY1_AUTOMATIC_AUTOCAST",
         "value": 84
       },
       {
-        "name": "DOTA_KEYBIND_ABILITY_ULTIMATE_AUTOMATIC_AUTOCAST",
+        "name": "DOTA_KEYBIND_ABILITY_PRIMARY2_AUTOMATIC_AUTOCAST",
         "value": 85
       },
       {
-        "name": "DOTA_KEYBIND_INVENTORY1",
+        "name": "DOTA_KEYBIND_ABILITY_PRIMARY3_AUTOMATIC_AUTOCAST",
         "value": 86
       },
       {
-        "name": "DOTA_KEYBIND_INVENTORY2",
+        "name": "DOTA_KEYBIND_ABILITY_SECONDARY1_AUTOMATIC_AUTOCAST",
         "value": 87
       },
       {
-        "name": "DOTA_KEYBIND_INVENTORY3",
+        "name": "DOTA_KEYBIND_ABILITY_SECONDARY2_AUTOMATIC_AUTOCAST",
         "value": 88
       },
       {
-        "name": "DOTA_KEYBIND_INVENTORY4",
+        "name": "DOTA_KEYBIND_ABILITY_ULTIMATE_AUTOMATIC_AUTOCAST",
         "value": 89
       },
       {
-        "name": "DOTA_KEYBIND_INVENTORY5",
+        "name": "DOTA_KEYBIND_INVENTORY1",
         "value": 90
       },
       {
-        "name": "DOTA_KEYBIND_INVENTORY6",
+        "name": "DOTA_KEYBIND_INVENTORY2",
         "value": 91
       },
       {
-        "name": "DOTA_KEYBIND_INVENTORYTP",
+        "name": "DOTA_KEYBIND_INVENTORY3",
         "value": 92
       },
       {
-        "name": "DOTA_KEYBIND_INVENTORYNEUTRAL",
+        "name": "DOTA_KEYBIND_INVENTORY4",
         "value": 93
       },
       {
-        "name": "DOTA_KEYBIND_INVENTORY1_QUICKCAST",
+        "name": "DOTA_KEYBIND_INVENTORY5",
         "value": 94
       },
       {
-        "name": "DOTA_KEYBIND_INVENTORY2_QUICKCAST",
+        "name": "DOTA_KEYBIND_INVENTORY6",
         "value": 95
       },
       {
-        "name": "DOTA_KEYBIND_INVENTORY3_QUICKCAST",
+        "name": "DOTA_KEYBIND_INVENTORYTP",
         "value": 96
       },
       {
-        "name": "DOTA_KEYBIND_INVENTORY4_QUICKCAST",
+        "name": "DOTA_KEYBIND_INVENTORYNEUTRAL",
         "value": 97
       },
       {
-        "name": "DOTA_KEYBIND_INVENTORY5_QUICKCAST",
+        "name": "DOTA_KEYBIND_INVENTORY1_QUICKCAST",
         "value": 98
       },
       {
-        "name": "DOTA_KEYBIND_INVENTORY6_QUICKCAST",
+        "name": "DOTA_KEYBIND_INVENTORY2_QUICKCAST",
         "value": 99
       },
       {
-        "name": "DOTA_KEYBIND_INVENTORYTP_QUICKCAST",
+        "name": "DOTA_KEYBIND_INVENTORY3_QUICKCAST",
         "value": 100
       },
       {
-        "name": "DOTA_KEYBIND_INVENTORYNEUTRAL_QUICKCAST",
+        "name": "DOTA_KEYBIND_INVENTORY4_QUICKCAST",
         "value": 101
       },
       {
-        "name": "DOTA_KEYBIND_INVENTORY1_AUTOCAST",
+        "name": "DOTA_KEYBIND_INVENTORY5_QUICKCAST",
         "value": 102
       },
       {
-        "name": "DOTA_KEYBIND_INVENTORY2_AUTOCAST",
+        "name": "DOTA_KEYBIND_INVENTORY6_QUICKCAST",
         "value": 103
       },
       {
-        "name": "DOTA_KEYBIND_INVENTORY3_AUTOCAST",
+        "name": "DOTA_KEYBIND_INVENTORYTP_QUICKCAST",
         "value": 104
       },
       {
-        "name": "DOTA_KEYBIND_INVENTORY4_AUTOCAST",
+        "name": "DOTA_KEYBIND_INVENTORYNEUTRAL_QUICKCAST",
         "value": 105
       },
       {
-        "name": "DOTA_KEYBIND_INVENTORY5_AUTOCAST",
+        "name": "DOTA_KEYBIND_INVENTORY1_AUTOCAST",
         "value": 106
       },
       {
-        "name": "DOTA_KEYBIND_INVENTORY6_AUTOCAST",
+        "name": "DOTA_KEYBIND_INVENTORY2_AUTOCAST",
         "value": 107
       },
       {
-        "name": "DOTA_KEYBIND_INVENTORYTP_AUTOCAST",
+        "name": "DOTA_KEYBIND_INVENTORY3_AUTOCAST",
         "value": 108
       },
       {
-        "name": "DOTA_KEYBIND_INVENTORYNEUTRAL_AUTOCAST",
+        "name": "DOTA_KEYBIND_INVENTORY4_AUTOCAST",
         "value": 109
       },
       {
-        "name": "DOTA_KEYBIND_INVENTORY1_QUICKAUTOCAST",
+        "name": "DOTA_KEYBIND_INVENTORY5_AUTOCAST",
         "value": 110
       },
       {
-        "name": "DOTA_KEYBIND_INVENTORY2_QUICKAUTOCAST",
+        "name": "DOTA_KEYBIND_INVENTORY6_AUTOCAST",
         "value": 111
       },
       {
-        "name": "DOTA_KEYBIND_INVENTORY3_QUICKAUTOCAST",
+        "name": "DOTA_KEYBIND_INVENTORYTP_AUTOCAST",
         "value": 112
       },
       {
-        "name": "DOTA_KEYBIND_INVENTORY4_QUICKAUTOCAST",
+        "name": "DOTA_KEYBIND_INVENTORYNEUTRAL_AUTOCAST",
         "value": 113
       },
       {
-        "name": "DOTA_KEYBIND_INVENTORY5_QUICKAUTOCAST",
+        "name": "DOTA_KEYBIND_INVENTORY1_QUICKAUTOCAST",
         "value": 114
       },
       {
-        "name": "DOTA_KEYBIND_INVENTORY6_QUICKAUTOCAST",
+        "name": "DOTA_KEYBIND_INVENTORY2_QUICKAUTOCAST",
         "value": 115
       },
       {
-        "name": "DOTA_KEYBIND_INVENTORYTP_QUICKAUTOCAST",
+        "name": "DOTA_KEYBIND_INVENTORY3_QUICKAUTOCAST",
         "value": 116
       },
       {
-        "name": "DOTA_KEYBIND_INVENTORYNEUTRAL_QUICKAUTOCAST",
+        "name": "DOTA_KEYBIND_INVENTORY4_QUICKAUTOCAST",
         "value": 117
       },
       {
-        "name": "DOTA_KEYBIND_CONTROL_GROUP1",
+        "name": "DOTA_KEYBIND_INVENTORY5_QUICKAUTOCAST",
         "value": 118
       },
       {
-        "name": "DOTA_KEYBIND_CONTROL_GROUP2",
+        "name": "DOTA_KEYBIND_INVENTORY6_QUICKAUTOCAST",
         "value": 119
       },
       {
-        "name": "DOTA_KEYBIND_CONTROL_GROUP3",
+        "name": "DOTA_KEYBIND_INVENTORYTP_QUICKAUTOCAST",
         "value": 120
       },
       {
-        "name": "DOTA_KEYBIND_CONTROL_GROUP4",
+        "name": "DOTA_KEYBIND_INVENTORYNEUTRAL_QUICKAUTOCAST",
         "value": 121
       },
       {
-        "name": "DOTA_KEYBIND_CONTROL_GROUP5",
+        "name": "DOTA_KEYBIND_CONTROL_GROUP1",
         "value": 122
       },
       {
-        "name": "DOTA_KEYBIND_CONTROL_GROUP6",
+        "name": "DOTA_KEYBIND_CONTROL_GROUP2",
         "value": 123
       },
       {
-        "name": "DOTA_KEYBIND_CONTROL_GROUP7",
+        "name": "DOTA_KEYBIND_CONTROL_GROUP3",
         "value": 124
       },
       {
-        "name": "DOTA_KEYBIND_CONTROL_GROUP8",
+        "name": "DOTA_KEYBIND_CONTROL_GROUP4",
         "value": 125
       },
       {
-        "name": "DOTA_KEYBIND_CONTROL_GROUP9",
+        "name": "DOTA_KEYBIND_CONTROL_GROUP5",
         "value": 126
       },
       {
-        "name": "DOTA_KEYBIND_CONTROL_GROUP10",
+        "name": "DOTA_KEYBIND_CONTROL_GROUP6",
         "value": 127
       },
       {
-        "name": "DOTA_KEYBIND_CONTROL_GROUPCYCLE",
+        "name": "DOTA_KEYBIND_CONTROL_GROUP7",
         "value": 128
       },
       {
-        "name": "DOTA_KEYBIND_SELECT_ALLY1",
+        "name": "DOTA_KEYBIND_CONTROL_GROUP8",
         "value": 129
       },
       {
-        "name": "DOTA_KEYBIND_SELECT_ALLY2",
+        "name": "DOTA_KEYBIND_CONTROL_GROUP9",
         "value": 130
       },
       {
-        "name": "DOTA_KEYBIND_SELECT_ALLY3",
+        "name": "DOTA_KEYBIND_CONTROL_GROUP10",
         "value": 131
       },
       {
-        "name": "DOTA_KEYBIND_SELECT_ALLY4",
+        "name": "DOTA_KEYBIND_CONTROL_GROUPCYCLE",
         "value": 132
       },
       {
-        "name": "DOTA_KEYBIND_SELECT_ALLY5",
+        "name": "DOTA_KEYBIND_SELECT_ALLY1",
         "value": 133
       },
       {
-        "name": "DOTA_KEYBIND_SHOP_TOGGLE",
+        "name": "DOTA_KEYBIND_SELECT_ALLY2",
         "value": 134
       },
       {
-        "name": "DOTA_KEYBIND_SCOREBOARD_TOGGLE",
+        "name": "DOTA_KEYBIND_SELECT_ALLY3",
         "value": 135
       },
       {
-        "name": "DOTA_KEYBIND_COMBATLOG_TOGGLE",
+        "name": "DOTA_KEYBIND_SELECT_ALLY4",
         "value": 136
       },
       {
-        "name": "DOTA_KEYBIND_SCREENSHOT",
+        "name": "DOTA_KEYBIND_SELECT_ALLY5",
         "value": 137
       },
       {
-        "name": "DOTA_KEYBIND_ESCAPE",
+        "name": "DOTA_KEYBIND_SHOP_TOGGLE",
         "value": 138
       },
       {
-        "name": "DOTA_KEYBIND_CONSOLE",
+        "name": "DOTA_KEYBIND_SCOREBOARD_TOGGLE",
         "value": 139
       },
       {
-        "name": "DOTA_KEYBIND_DEATH_SUMMARY",
+        "name": "DOTA_KEYBIND_COMBATLOG_TOGGLE",
         "value": 140
       },
       {
-        "name": "DOTA_KEYBIND_LEARN_ABILITIES",
+        "name": "DOTA_KEYBIND_SCREENSHOT",
         "value": 141
       },
       {
-        "name": "DOTA_KEYBIND_LEARN_STATS",
+        "name": "DOTA_KEYBIND_ESCAPE",
         "value": 142
       },
       {
-        "name": "DOTA_KEYBIND_ACTIVATE_GLYPH",
+        "name": "DOTA_KEYBIND_CONSOLE",
         "value": 143
       },
       {
-        "name": "DOTA_KEYBIND_ACTIVATE_RADAR",
+        "name": "DOTA_KEYBIND_DEATH_SUMMARY",
         "value": 144
       },
       {
-        "name": "DOTA_KEYBIND_PURCHASE_QUICKBUY",
+        "name": "DOTA_KEYBIND_LEARN_ABILITIES",
         "value": 145
       },
       {
-        "name": "DOTA_KEYBIND_PURCHASE_STICKY",
+        "name": "DOTA_KEYBIND_LEARN_STATS",
         "value": 146
       },
       {
-        "name": "DOTA_KEYBIND_TOGGLE_BUYBACK_PROTECTION",
+        "name": "DOTA_KEYBIND_ACTIVATE_GLYPH",
         "value": 147
       },
       {
-        "name": "DOTA_KEYBIND_GRAB_STASH_ITEMS",
+        "name": "DOTA_KEYBIND_ACTIVATE_RADAR",
         "value": 148
       },
       {
-        "name": "DOTA_KEYBIND_TOGGLE_AUTOATTACK",
+        "name": "DOTA_KEYBIND_PURCHASE_QUICKBUY",
         "value": 149
       },
       {
-        "name": "DOTA_KEYBIND_TOGGLE_OVERLAYMAP",
+        "name": "DOTA_KEYBIND_PURCHASE_STICKY",
         "value": 150
       },
       {
-        "name": "DOTA_KEYBIND_OVERLAYMAP_INPUTKEY",
+        "name": "DOTA_KEYBIND_TOGGLE_BUYBACK_PROTECTION",
         "value": 151
       },
       {
-        "name": "DOTA_KEYBIND_FILTER_ENEMY",
+        "name": "DOTA_KEYBIND_GRAB_STASH_ITEMS",
         "value": 152
       },
       {
-        "name": "DOTA_KEYBIND_FILTER_ALLY",
+        "name": "DOTA_KEYBIND_TOGGLE_AUTOATTACK",
         "value": 153
       },
       {
-        "name": "DOTA_KEYBIND_FILTER_HERO",
+        "name": "DOTA_KEYBIND_TOGGLE_OVERLAYMAP",
         "value": 154
       },
       {
-        "name": "DOTA_KEYBIND_FILTER_NONHERO",
+        "name": "DOTA_KEYBIND_OVERLAYMAP_INPUTKEY",
         "value": 155
       },
       {
-        "name": "DOTA_KEYBIND_TAUNT",
+        "name": "DOTA_KEYBIND_FILTER_ENEMY",
         "value": 156
       },
       {
-        "name": "DOTA_KEYBIND_SHOP_CONSUMABLES",
+        "name": "DOTA_KEYBIND_FILTER_ALLY",
         "value": 157
       },
       {
-        "name": "DOTA_KEYBIND_SHOP_ATTRIBUTES",
+        "name": "DOTA_KEYBIND_FILTER_HERO",
         "value": 158
       },
       {
-        "name": "DOTA_KEYBIND_SHOP_ARMAMENTS",
+        "name": "DOTA_KEYBIND_FILTER_NONHERO",
         "value": 159
       },
       {
-        "name": "DOTA_KEYBIND_SHOP_ARCANE",
+        "name": "DOTA_KEYBIND_TAUNT",
         "value": 160
       },
       {
-        "name": "DOTA_KEYBIND_SHOP_BASICS",
+        "name": "DOTA_KEYBIND_SHOP_CONSUMABLES",
         "value": 161
       },
       {
-        "name": "DOTA_KEYBIND_SHOP_SUPPORT",
+        "name": "DOTA_KEYBIND_SHOP_ATTRIBUTES",
         "value": 162
       },
       {
-        "name": "DOTA_KEYBIND_SHOP_CASTER",
+        "name": "DOTA_KEYBIND_SHOP_ARMAMENTS",
         "value": 163
       },
       {
-        "name": "DOTA_KEYBIND_SHOP_WEAPONS",
+        "name": "DOTA_KEYBIND_SHOP_ARCANE",
         "value": 164
       },
       {
-        "name": "DOTA_KEYBIND_SHOP_ARMOR",
+        "name": "DOTA_KEYBIND_SHOP_BASICS",
         "value": 165
       },
       {
-        "name": "DOTA_KEYBIND_SHOP_ARTIFACTS",
+        "name": "DOTA_KEYBIND_SHOP_SUPPORT",
         "value": 166
       },
       {
-        "name": "DOTA_KEYBIND_SHOP_SIDE_PAGE_1",
+        "name": "DOTA_KEYBIND_SHOP_CASTER",
         "value": 167
       },
       {
-        "name": "DOTA_KEYBIND_SHOP_SIDE_PAGE_2",
+        "name": "DOTA_KEYBIND_SHOP_WEAPONS",
         "value": 168
       },
       {
-        "name": "DOTA_KEYBIND_SHOP_SECRET",
+        "name": "DOTA_KEYBIND_SHOP_ARMOR",
         "value": 169
       },
       {
-        "name": "DOTA_KEYBIND_SHOP_SEARCHBOX",
+        "name": "DOTA_KEYBIND_SHOP_ARTIFACTS",
         "value": 170
       },
       {
-        "name": "DOTA_KEYBIND_SHOP_SLOT_1",
+        "name": "DOTA_KEYBIND_SHOP_SIDE_PAGE_1",
         "value": 171
       },
       {
-        "name": "DOTA_KEYBIND_SHOP_SLOT_2",
+        "name": "DOTA_KEYBIND_SHOP_SIDE_PAGE_2",
         "value": 172
       },
       {
-        "name": "DOTA_KEYBIND_SHOP_SLOT_3",
+        "name": "DOTA_KEYBIND_SHOP_SECRET",
         "value": 173
       },
       {
-        "name": "DOTA_KEYBIND_SHOP_SLOT_4",
+        "name": "DOTA_KEYBIND_SHOP_SEARCHBOX",
         "value": 174
       },
       {
-        "name": "DOTA_KEYBIND_SHOP_SLOT_5",
+        "name": "DOTA_KEYBIND_SHOP_SLOT_1",
         "value": 175
       },
       {
-        "name": "DOTA_KEYBIND_SHOP_SLOT_6",
+        "name": "DOTA_KEYBIND_SHOP_SLOT_2",
         "value": 176
       },
       {
-        "name": "DOTA_KEYBIND_SHOP_SLOT_7",
+        "name": "DOTA_KEYBIND_SHOP_SLOT_3",
         "value": 177
       },
       {
-        "name": "DOTA_KEYBIND_SHOP_SLOT_8",
+        "name": "DOTA_KEYBIND_SHOP_SLOT_4",
         "value": 178
       },
       {
-        "name": "DOTA_KEYBIND_SHOP_SLOT_9",
+        "name": "DOTA_KEYBIND_SHOP_SLOT_5",
         "value": 179
       },
       {
-        "name": "DOTA_KEYBIND_SHOP_SLOT_10",
+        "name": "DOTA_KEYBIND_SHOP_SLOT_6",
         "value": 180
       },
       {
-        "name": "DOTA_KEYBIND_SHOP_SLOT_11",
+        "name": "DOTA_KEYBIND_SHOP_SLOT_7",
         "value": 181
       },
       {
-        "name": "DOTA_KEYBIND_SHOP_SLOT_12",
+        "name": "DOTA_KEYBIND_SHOP_SLOT_8",
         "value": 182
       },
       {
-        "name": "DOTA_KEYBIND_SHOP_SLOT_13",
+        "name": "DOTA_KEYBIND_SHOP_SLOT_9",
         "value": 183
       },
       {
-        "name": "DOTA_KEYBIND_SHOP_SLOT_14",
+        "name": "DOTA_KEYBIND_SHOP_SLOT_10",
         "value": 184
       },
       {
-        "name": "DOTA_KEYBIND_SPEC_CAMERA_UP",
+        "name": "DOTA_KEYBIND_SHOP_SLOT_11",
         "value": 185
       },
       {
-        "name": "DOTA_KEYBIND_SPEC_CAMERA_DOWN",
+        "name": "DOTA_KEYBIND_SHOP_SLOT_12",
         "value": 186
       },
       {
-        "name": "DOTA_KEYBIND_SPEC_CAMERA_LEFT",
+        "name": "DOTA_KEYBIND_SHOP_SLOT_13",
         "value": 187
       },
       {
-        "name": "DOTA_KEYBIND_SPEC_CAMERA_RIGHT",
+        "name": "DOTA_KEYBIND_SHOP_SLOT_14",
         "value": 188
       },
       {
-        "name": "DOTA_KEYBIND_SPEC_CAMERA_GRIP",
+        "name": "DOTA_KEYBIND_SPEC_CAMERA_UP",
         "value": 189
       },
       {
-        "name": "DOTA_KEYBIND_SPEC_CAMERA_SAVED_POSITION_1",
+        "name": "DOTA_KEYBIND_SPEC_CAMERA_DOWN",
         "value": 190
       },
       {
-        "name": "DOTA_KEYBIND_SPEC_CAMERA_SAVED_POSITION_2",
+        "name": "DOTA_KEYBIND_SPEC_CAMERA_LEFT",
         "value": 191
       },
       {
-        "name": "DOTA_KEYBIND_SPEC_CAMERA_SAVED_POSITION_3",
+        "name": "DOTA_KEYBIND_SPEC_CAMERA_RIGHT",
         "value": 192
       },
       {
-        "name": "DOTA_KEYBIND_SPEC_CAMERA_SAVED_POSITION_4",
+        "name": "DOTA_KEYBIND_SPEC_CAMERA_GRIP",
         "value": 193
       },
       {
-        "name": "DOTA_KEYBIND_SPEC_CAMERA_SAVED_POSITION_5",
+        "name": "DOTA_KEYBIND_SPEC_CAMERA_SAVED_POSITION_1",
         "value": 194
       },
       {
-        "name": "DOTA_KEYBIND_SPEC_CAMERA_SAVED_POSITION_6",
+        "name": "DOTA_KEYBIND_SPEC_CAMERA_SAVED_POSITION_2",
         "value": 195
       },
       {
-        "name": "DOTA_KEYBIND_SPEC_CAMERA_SAVED_POSITION_7",
+        "name": "DOTA_KEYBIND_SPEC_CAMERA_SAVED_POSITION_3",
         "value": 196
       },
       {
-        "name": "DOTA_KEYBIND_SPEC_CAMERA_SAVED_POSITION_8",
+        "name": "DOTA_KEYBIND_SPEC_CAMERA_SAVED_POSITION_4",
         "value": 197
       },
       {
-        "name": "DOTA_KEYBIND_SPEC_CAMERA_SAVED_POSITION_9",
+        "name": "DOTA_KEYBIND_SPEC_CAMERA_SAVED_POSITION_5",
         "value": 198
       },
       {
-        "name": "DOTA_KEYBIND_SPEC_CAMERA_SAVED_POSITION_10",
+        "name": "DOTA_KEYBIND_SPEC_CAMERA_SAVED_POSITION_6",
         "value": 199
       },
       {
-        "name": "DOTA_KEYBIND_SPEC_UNIT_SELECT",
+        "name": "DOTA_KEYBIND_SPEC_CAMERA_SAVED_POSITION_7",
         "value": 200
       },
       {
-        "name": "DOTA_KEYBIND_SPEC_HERO_SELECT",
+        "name": "DOTA_KEYBIND_SPEC_CAMERA_SAVED_POSITION_8",
         "value": 201
       },
       {
-        "name": "DOTA_KEYBIND_SPEC_PAUSE",
+        "name": "DOTA_KEYBIND_SPEC_CAMERA_SAVED_POSITION_9",
         "value": 202
       },
       {
-        "name": "DOTA_KEYBIND_SPEC_CHAT",
+        "name": "DOTA_KEYBIND_SPEC_CAMERA_SAVED_POSITION_10",
         "value": 203
       },
       {
-        "name": "DOTA_KEYBIND_SPEC_SCOREBOARD",
+        "name": "DOTA_KEYBIND_SPEC_UNIT_SELECT",
         "value": 204
       },
       {
-        "name": "DOTA_KEYBIND_SPEC_INCREASE_REPLAY_SPEED",
+        "name": "DOTA_KEYBIND_SPEC_HERO_SELECT",
         "value": 205
       },
       {
-        "name": "DOTA_KEYBIND_SPEC_DECREASE_REPLAY_SPEED",
+        "name": "DOTA_KEYBIND_SPEC_PAUSE",
         "value": 206
       },
       {
-        "name": "DOTA_KEYBIND_SPEC_STATS_ITEM",
+        "name": "DOTA_KEYBIND_SPEC_CHAT",
         "value": 207
       },
       {
-        "name": "DOTA_KEYBIND_SPEC_STATS_GOLD",
+        "name": "DOTA_KEYBIND_SPEC_SCOREBOARD",
         "value": 208
       },
       {
-        "name": "DOTA_KEYBIND_SPEC_STATS_XP",
+        "name": "DOTA_KEYBIND_SPEC_INCREASE_REPLAY_SPEED",
         "value": 209
       },
       {
-        "name": "DOTA_KEYBIND_SPEC_STATS_FANTASY",
+        "name": "DOTA_KEYBIND_SPEC_DECREASE_REPLAY_SPEED",
         "value": 210
       },
       {
-        "name": "DOTA_KEYBIND_SPEC_STATS_WINCHANCE",
+        "name": "DOTA_KEYBIND_SPEC_STATS_ITEM",
         "value": 211
       },
       {
-        "name": "DOTA_KEYBIND_SPEC_FOW_TOGGLEBOTH",
+        "name": "DOTA_KEYBIND_SPEC_STATS_GOLD",
         "value": 212
       },
       {
-        "name": "DOTA_KEYBIND_SPEC_FOW_TOGGLERADIENT",
+        "name": "DOTA_KEYBIND_SPEC_STATS_XP",
         "value": 213
       },
       {
-        "name": "DOTA_KEYBIND_SPEC_FOW_TOGGLEDIRE",
+        "name": "DOTA_KEYBIND_SPEC_STATS_FANTASY",
         "value": 214
       },
       {
-        "name": "DOTA_KEYBIND_SPEC_OPEN_BROADCASTER_MENU",
+        "name": "DOTA_KEYBIND_SPEC_STATS_WINCHANCE",
         "value": 215
       },
       {
-        "name": "DOTA_KEYBIND_SPEC_DROPDOWN_KDA",
+        "name": "DOTA_KEYBIND_SPEC_FOW_TOGGLEBOTH",
         "value": 216
       },
       {
-        "name": "DOTA_KEYBIND_SPEC_DROPDOWN_LASTHITS_DENIES",
+        "name": "DOTA_KEYBIND_SPEC_FOW_TOGGLERADIENT",
         "value": 217
       },
       {
-        "name": "DOTA_KEYBIND_SPEC_DROPDOWN_LEVEL",
+        "name": "DOTA_KEYBIND_SPEC_FOW_TOGGLEDIRE",
         "value": 218
       },
       {
-        "name": "DOTA_KEYBIND_SPEC_DROPDOWN_HEROFACET",
+        "name": "DOTA_KEYBIND_SPEC_OPEN_BROADCASTER_MENU",
         "value": 219
       },
       {
-        "name": "DOTA_KEYBIND_SPEC_DROPDOWN_XP_PER_MIN",
+        "name": "DOTA_KEYBIND_SPEC_DROPDOWN_KDA",
         "value": 220
       },
       {
-        "name": "DOTA_KEYBIND_SPEC_DROPDOWN_GOLD",
+        "name": "DOTA_KEYBIND_SPEC_DROPDOWN_LASTHITS_DENIES",
         "value": 221
       },
       {
-        "name": "DOTA_KEYBIND_SPEC_DROPDOWN_TOTALGOLD",
+        "name": "DOTA_KEYBIND_SPEC_DROPDOWN_LEVEL",
         "value": 222
       },
       {
-        "name": "DOTA_KEYBIND_SPEC_DROPDOWN_GOLD_PER_MIN",
+        "name": "DOTA_KEYBIND_SPEC_DROPDOWN_HEROFACET",
         "value": 223
       },
       {
-        "name": "DOTA_KEYBIND_SPEC_DROPDOWN_BUYBACK",
+        "name": "DOTA_KEYBIND_SPEC_DROPDOWN_XP_PER_MIN",
         "value": 224
       },
       {
-        "name": "DOTA_KEYBIND_SPEC_DROPDOWN_NETWORTH",
+        "name": "DOTA_KEYBIND_SPEC_DROPDOWN_GOLD",
         "value": 225
       },
       {
-        "name": "DOTA_KEYBIND_SPEC_DROPDOWN_FANTASY",
+        "name": "DOTA_KEYBIND_SPEC_DROPDOWN_TOTALGOLD",
         "value": 226
       },
       {
-        "name": "DOTA_KEYBIND_SPEC_DROPDOWN_SORT",
+        "name": "DOTA_KEYBIND_SPEC_DROPDOWN_GOLD_PER_MIN",
         "value": 227
       },
       {
-        "name": "DOTA_KEYBIND_SPEC_DROPDOWN_CLOSE",
+        "name": "DOTA_KEYBIND_SPEC_DROPDOWN_BUYBACK",
         "value": 228
       },
       {
-        "name": "DOTA_KEYBIND_SPEC_FOCUS_PLAYER_1",
+        "name": "DOTA_KEYBIND_SPEC_DROPDOWN_NETWORTH",
         "value": 229
       },
       {
-        "name": "DOTA_KEYBIND_SPEC_FOCUS_PLAYER_2",
+        "name": "DOTA_KEYBIND_SPEC_DROPDOWN_FANTASY",
         "value": 230
       },
       {
-        "name": "DOTA_KEYBIND_SPEC_FOCUS_PLAYER_3",
+        "name": "DOTA_KEYBIND_SPEC_DROPDOWN_SORT",
         "value": 231
       },
       {
-        "name": "DOTA_KEYBIND_SPEC_FOCUS_PLAYER_4",
+        "name": "DOTA_KEYBIND_SPEC_DROPDOWN_CLOSE",
         "value": 232
       },
       {
-        "name": "DOTA_KEYBIND_SPEC_FOCUS_PLAYER_5",
+        "name": "DOTA_KEYBIND_SPEC_FOCUS_PLAYER_1",
         "value": 233
       },
       {
-        "name": "DOTA_KEYBIND_SPEC_FOCUS_PLAYER_6",
+        "name": "DOTA_KEYBIND_SPEC_FOCUS_PLAYER_2",
         "value": 234
       },
       {
-        "name": "DOTA_KEYBIND_SPEC_FOCUS_PLAYER_7",
+        "name": "DOTA_KEYBIND_SPEC_FOCUS_PLAYER_3",
         "value": 235
       },
       {
-        "name": "DOTA_KEYBIND_SPEC_FOCUS_PLAYER_8",
+        "name": "DOTA_KEYBIND_SPEC_FOCUS_PLAYER_4",
         "value": 236
       },
       {
-        "name": "DOTA_KEYBIND_SPEC_FOCUS_PLAYER_9",
+        "name": "DOTA_KEYBIND_SPEC_FOCUS_PLAYER_5",
         "value": 237
       },
       {
-        "name": "DOTA_KEYBIND_SPEC_FOCUS_PLAYER_10",
+        "name": "DOTA_KEYBIND_SPEC_FOCUS_PLAYER_6",
         "value": 238
       },
       {
-        "name": "DOTA_KEYBIND_SPEC_COACH_VIEWTOGGLE",
+        "name": "DOTA_KEYBIND_SPEC_FOCUS_PLAYER_7",
         "value": 239
       },
       {
-        "name": "DOTA_KEYBIND_INSPECTHEROINWORLD",
+        "name": "DOTA_KEYBIND_SPEC_FOCUS_PLAYER_8",
         "value": 240
       },
       {
-        "name": "DOTA_KEYBIND_CAMERA_ZOOM_IN",
+        "name": "DOTA_KEYBIND_SPEC_FOCUS_PLAYER_9",
         "value": 241
       },
       {
-        "name": "DOTA_KEYBIND_CAMERA_ZOOM_OUT",
+        "name": "DOTA_KEYBIND_SPEC_FOCUS_PLAYER_10",
         "value": 242
       },
       {
-        "name": "DOTA_KEYBIND_CONTROL_GROUPCYCLEPREV",
+        "name": "DOTA_KEYBIND_SPEC_COACH_VIEWTOGGLE",
         "value": 243
       },
       {
-        "name": "DOTA_KEYBIND_DOTA_ALT",
+        "name": "DOTA_KEYBIND_INSPECTHEROINWORLD",
         "value": 244
       },
       {
-        "name": "DOTA_KEYBIND_DOTA_ALTERNATIVE_CAST_SWITCH",
+        "name": "DOTA_KEYBIND_CAMERA_ZOOM_IN",
         "value": 245
       },
       {
-        "name": "DOTA_KEYBIND_COUNT",
+        "name": "DOTA_KEYBIND_CAMERA_ZOOM_OUT",
         "value": 246
+      },
+      {
+        "name": "DOTA_KEYBIND_CONTROL_GROUPCYCLEPREV",
+        "value": 247
+      },
+      {
+        "name": "DOTA_KEYBIND_DOTA_ALT",
+        "value": 248
+      },
+      {
+        "name": "DOTA_KEYBIND_DOTA_ALTERNATIVE_CAST_SWITCH",
+        "value": 249
+      },
+      {
+        "name": "DOTA_KEYBIND_COUNT",
+        "value": 250
       }
     ]
   },

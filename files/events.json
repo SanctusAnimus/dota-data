@@ -5353,5 +5353,24 @@
         "type": "EntityIndex"
       }
     ]
+  },
+  {
+    "name": "dota_ancient_decoration_event",
+    "sourceFile": "game",
+    "local": false,
+    "fields": [
+      {
+        "name": "entindex",
+        "type": "EntityIndex"
+      },
+      {
+        "name": "teamnumber",
+        "type": "int"
+      },
+      {
+        "name": "eventname",
+        "type": "string"
+      }
+    ]
   }
 ]
