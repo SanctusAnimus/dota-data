@@ -153,180 +153,7 @@
     "name": "CBaseAnimGraph",
     "clientName": "CBaseAnimGraph",
     "extend": "CBaseModelEntity",
-    "members": [
-      {
-        "kind": "function",
-        "name": "GetGraphParameter",
-        "available": "server",
-        "description": "Get the value of the given animGraph parameter.",
-        "returns": [
-          "table"
-        ],
-        "args": [
-          {
-            "name": "param",
-            "types": [
-              "string"
-            ]
-          }
-        ]
-      },
-      {
-        "kind": "function",
-        "name": "SetGraphLookTarget",
-        "available": "server",
-        "description": "Pass the desired look target in world space to the graph.",
-        "returns": [
-          "nil"
-        ],
-        "args": [
-          {
-            "name": "value",
-            "types": [
-              "Vector"
-            ]
-          }
-        ]
-      },
-      {
-        "kind": "function",
-        "name": "SetGraphParameter",
-        "available": "server",
-        "description": "Set the specific param value, type is inferred from the type in script.",
-        "returns": [
-          "nil"
-        ],
-        "args": [
-          {
-            "name": "param",
-            "types": [
-              "string"
-            ]
-          },
-          {
-            "name": "svArg",
-            "types": [
-              "table"
-            ]
-          }
-        ]
-      },
-      {
-        "kind": "function",
-        "name": "SetGraphParameterBool",
-        "available": "server",
-        "description": "Set the specific param on or off.",
-        "returns": [
-          "nil"
-        ],
-        "args": [
-          {
-            "name": "name",
-            "types": [
-              "string"
-            ]
-          },
-          {
-            "name": "value",
-            "types": [
-              "bool"
-            ]
-          }
-        ]
-      },
-      {
-        "kind": "function",
-        "name": "SetGraphParameterEnum",
-        "available": "server",
-        "description": "Pass the enum (int) value to the specified param.",
-        "returns": [
-          "nil"
-        ],
-        "args": [
-          {
-            "name": "name",
-            "types": [
-              "string"
-            ]
-          },
-          {
-            "name": "value",
-            "types": [
-              "int"
-            ]
-          }
-        ]
-      },
-      {
-        "kind": "function",
-        "name": "SetGraphParameterFloat",
-        "available": "server",
-        "description": "Pass the float value to the specified param.",
-        "returns": [
-          "nil"
-        ],
-        "args": [
-          {
-            "name": "name",
-            "types": [
-              "string"
-            ]
-          },
-          {
-            "name": "value",
-            "types": [
-              "float"
-            ]
-          }
-        ]
-      },
-      {
-        "kind": "function",
-        "name": "SetGraphParameterInt",
-        "available": "server",
-        "description": "Pass the int value to the specified param.",
-        "returns": [
-          "nil"
-        ],
-        "args": [
-          {
-            "name": "name",
-            "types": [
-              "string"
-            ]
-          },
-          {
-            "name": "value",
-            "types": [
-              "int"
-            ]
-          }
-        ]
-      },
-      {
-        "kind": "function",
-        "name": "SetGraphParameterVector",
-        "available": "server",
-        "description": "Pass the vector value to the specified param in the graph.",
-        "returns": [
-          "nil"
-        ],
-        "args": [
-          {
-            "name": "name",
-            "types": [
-              "string"
-            ]
-          },
-          {
-            "name": "value",
-            "types": [
-              "Vector"
-            ]
-          }
-        ]
-      }
-    ]
+    "members": []
   },
   {
     "kind": "class",
@@ -9666,6 +9493,23 @@
       },
       {
         "kind": "function",
+        "name": "SetControllableByAllPlayers",
+        "available": "server",
+        "description": "Set this unit controllable by all players.",
+        "returns": [
+          "nil"
+        ],
+        "args": [
+          {
+            "name": "controllableByAllPlayers",
+            "types": [
+              "bool"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "function",
         "name": "SetControllableByPlayer",
         "available": "server",
         "description": "Set this unit controllable by the player with the passed ID.",
@@ -15444,6 +15288,16 @@
       },
       {
         "kind": "function",
+        "name": "GetBuffAmplification",
+        "available": "both",
+        "abstract": true,
+        "args": [],
+        "returns": [
+          "nil"
+        ]
+      },
+      {
+        "kind": "function",
         "name": "GetConvertAttackPhysicalToPure",
         "available": "both",
         "abstract": true,
@@ -17456,6 +17310,26 @@
       },
       {
         "kind": "function",
+        "name": "GetModifierOverrideBaseDamage",
+        "available": "both",
+        "abstract": true,
+        "args": [],
+        "returns": [
+          "nil"
+        ]
+      },
+      {
+        "kind": "function",
+        "name": "GetModifierOverrideCreepBounty",
+        "available": "both",
+        "abstract": true,
+        "args": [],
+        "returns": [
+          "nil"
+        ]
+      },
+      {
+        "kind": "function",
         "name": "GetModifierPercentageAttackAnimTime",
         "available": "both",
         "abstract": true,
@@ -17479,6 +17353,16 @@
         ],
         "returns": [
           "float"
+        ]
+      },
+      {
+        "kind": "function",
+        "name": "GetModifierPercentageConvertExpToGold",
+        "available": "both",
+        "abstract": true,
+        "args": [],
+        "returns": [
+          "nil"
         ]
       },
       {
@@ -18111,6 +17995,16 @@
       {
         "kind": "function",
         "name": "GetModifierPropertyRestorationAmplificationUnique",
+        "available": "both",
+        "abstract": true,
+        "args": [],
+        "returns": [
+          "nil"
+        ]
+      },
+      {
+        "kind": "function",
+        "name": "GetModifierPropertySuppressInvalidMoveAttackOrders",
         "available": "both",
         "abstract": true,
         "args": [],
@@ -18936,6 +18830,16 @@
       },
       {
         "kind": "function",
+        "name": "OnAbilitySwapped",
+        "available": "both",
+        "abstract": true,
+        "args": [],
+        "returns": [
+          "nil"
+        ]
+      },
+      {
+        "kind": "function",
         "name": "OnAbilityToggled",
         "available": "both",
         "abstract": true,
@@ -19424,6 +19328,16 @@
       },
       {
         "kind": "function",
+        "name": "OnModifierRefreshed",
+        "available": "both",
+        "abstract": true,
+        "args": [],
+        "returns": [
+          "nil"
+        ]
+      },
+      {
+        "kind": "function",
         "name": "OnModifierRemoved",
         "available": "both",
         "abstract": true,
@@ -19465,6 +19379,16 @@
             ]
           }
         ],
+        "returns": [
+          "nil"
+        ]
+      },
+      {
+        "kind": "function",
+        "name": "OnOrderReceived",
+        "available": "both",
+        "abstract": true,
+        "args": [],
         "returns": [
           "nil"
         ]
@@ -35861,6 +35785,23 @@
       "nil"
     ],
     "args": []
+  },
+  {
+    "kind": "function",
+    "name": "DebugChangeTeam",
+    "available": "server",
+    "description": "Changes the team of the hero.",
+    "returns": [
+      "nil"
+    ],
+    "args": [
+      {
+        "name": "arg1",
+        "types": [
+          "handle"
+        ]
+      }
+    ]
   },
   {
     "kind": "function",
