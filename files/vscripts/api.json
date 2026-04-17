@@ -17125,7 +17125,7 @@
       },
       {
         "kind": "function",
-        "name": "GetModifierMoveSpeedPostMultiplierBonus_Constant ",
+        "name": "GetModifierMoveSpeedPostMultiplierBonus_Constant",
         "available": "both",
         "abstract": true,
         "args": [],
@@ -17982,6 +17982,16 @@
       {
         "kind": "function",
         "name": "GetModifierPropertyManacostOverride",
+        "available": "both",
+        "abstract": true,
+        "args": [],
+        "returns": [
+          "nil"
+        ]
+      },
+      {
+        "kind": "function",
+        "name": "GetModifierPropertyRedirectHealthGain",
         "available": "both",
         "abstract": true,
         "args": [],
@@ -19322,16 +19332,6 @@
       },
       {
         "kind": "function",
-        "name": "OnKnockbackAttempted",
-        "available": "both",
-        "abstract": true,
-        "args": [],
-        "returns": [
-          "nil"
-        ]
-      },
-      {
-        "kind": "function",
         "name": "OnMagicDamageCalculated",
         "available": "both",
         "abstract": true,
@@ -19508,6 +19508,16 @@
       {
         "kind": "function",
         "name": "OnPurged",
+        "available": "both",
+        "abstract": true,
+        "args": [],
+        "returns": [
+          "nil"
+        ]
+      },
+      {
+        "kind": "function",
+        "name": "OnRedirectHealthGain",
         "available": "both",
         "abstract": true,
         "args": [],
