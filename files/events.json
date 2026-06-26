@@ -235,6 +235,11 @@
       {
         "name": "PlayerID",
         "type": "PlayerID"
+      },
+      {
+        "name": "ever_fully_connected",
+        "description": "Was the player ever fully connected?",
+        "type": "bool"
       }
     ]
   },
@@ -5415,6 +5420,33 @@
       {
         "name": "eventname",
         "type": "string"
+      }
+    ]
+  },
+  {
+    "name": "dota_update_overlay_map",
+    "sourceFile": "game",
+    "local": false,
+    "fields": [
+      {
+        "name": "map_name",
+        "type": "string"
+      },
+      {
+        "name": "map_scale",
+        "type": "float"
+      },
+      {
+        "name": "map_size",
+        "type": "float"
+      },
+      {
+        "name": "x",
+        "type": "float"
+      },
+      {
+        "name": "y",
+        "type": "float"
       }
     ]
   }

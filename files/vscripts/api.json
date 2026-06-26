@@ -4289,13 +4289,13 @@
           {
             "name": "target",
             "types": [
-              "Vector"
+              "unknown"
             ]
           },
           {
             "name": "start",
             "types": [
-              "Vector"
+              "unknown"
             ]
           }
         ]
@@ -4409,7 +4409,7 @@
           {
             "name": "location",
             "types": [
-              "Vector"
+              "unknown"
             ]
           },
           {
@@ -4457,7 +4457,7 @@
           {
             "name": "location",
             "types": [
-              "Vector"
+              "unknown"
             ]
           }
         ]
@@ -4577,7 +4577,7 @@
           {
             "name": "location",
             "types": [
-              "Vector"
+              "unknown"
             ]
           },
           {
@@ -4724,7 +4724,7 @@
           {
             "name": "location",
             "types": [
-              "Vector"
+              "unknown"
             ]
           }
         ]
@@ -4775,7 +4775,7 @@
           {
             "name": "location",
             "types": [
-              "Vector"
+              "unknown"
             ]
           },
           {
@@ -5133,7 +5133,7 @@
           {
             "name": "location",
             "types": [
-              "Vector"
+              "unknown"
             ]
           }
         ]
@@ -5158,7 +5158,7 @@
           {
             "name": "location",
             "types": [
-              "Vector"
+              "unknown"
             ]
           },
           {
@@ -5189,7 +5189,7 @@
           {
             "name": "location",
             "types": [
-              "Vector"
+              "unknown"
             ]
           },
           {
@@ -5212,7 +5212,7 @@
           {
             "name": "location",
             "types": [
-              "Vector"
+              "unknown"
             ]
           }
         ]
@@ -5229,7 +5229,7 @@
           {
             "name": "location",
             "types": [
-              "Vector"
+              "unknown"
             ]
           },
           {
@@ -5817,7 +5817,7 @@
           {
             "name": "position",
             "types": [
-              "Vector"
+              "unknown"
             ]
           },
           {
@@ -5967,7 +5967,7 @@
           {
             "name": "dest",
             "types": [
-              "Vector"
+              "unknown"
             ]
           },
           {
@@ -5996,7 +5996,7 @@
           {
             "name": "position",
             "types": [
-              "Vector"
+              "unknown"
             ]
           }
         ]
@@ -6030,7 +6030,7 @@
           {
             "name": "target",
             "types": [
-              "Vector"
+              "unknown"
             ]
           }
         ]
@@ -6373,7 +6373,14 @@
         "returns": [
           "float"
         ],
-        "args": []
+        "args": [
+          {
+            "name": "ignoreModifiers",
+            "types": [
+              "bool"
+            ]
+          }
+        ]
       },
       {
         "kind": "function",
@@ -6765,7 +6772,7 @@
         "available": "server",
         "description": "Get waypoint position for this NPC.",
         "returns": [
-          "Vector"
+          "unknown"
         ],
         "args": []
       },
@@ -7992,7 +7999,7 @@
           {
             "name": "position",
             "types": [
-              "Vector"
+              "unknown"
             ]
           },
           {
@@ -8381,7 +8388,7 @@
           {
             "name": "dest",
             "types": [
-              "Vector"
+              "unknown"
             ]
           }
         ]
@@ -8502,7 +8509,7 @@
           {
             "name": "pos",
             "types": [
-              "Vector"
+              "unknown"
             ]
           }
         ]
@@ -8528,7 +8535,7 @@
           {
             "name": "dest",
             "types": [
-              "Vector"
+              "unknown"
             ]
           }
         ]
@@ -9510,7 +9517,7 @@
           {
             "name": "location",
             "types": [
-              "Vector"
+              "unknown"
             ]
           }
         ]
@@ -9745,7 +9752,7 @@
           {
             "name": "position",
             "types": [
-              "Vector"
+              "unknown"
             ]
           }
         ]
@@ -9926,7 +9933,7 @@
           {
             "name": "location",
             "types": [
-              "Vector"
+              "unknown"
             ]
           }
         ]
@@ -12062,7 +12069,7 @@
           {
             "name": "origin",
             "types": [
-              "Vector"
+              "unknown"
             ]
           }
         ]
@@ -12232,7 +12239,7 @@
         "available": "server",
         "description": "Get the trap target for this entity.",
         "returns": [
-          "Vector"
+          "unknown"
         ],
         "args": []
       },
@@ -13136,7 +13143,7 @@
           {
             "name": "endPoint",
             "types": [
-              "Vector"
+              "unknown"
             ]
           },
           {
@@ -13183,7 +13190,7 @@
           {
             "name": "endPoint",
             "types": [
-              "Vector"
+              "unknown"
             ]
           }
         ]
@@ -13223,7 +13230,7 @@
           {
             "name": "endPoint",
             "types": [
-              "Vector"
+              "unknown"
             ]
           }
         ]
@@ -13606,7 +13613,7 @@
           {
             "name": "location",
             "types": [
-              "Vector"
+              "unknown"
             ]
           },
           {
@@ -13724,7 +13731,7 @@
           {
             "name": "location",
             "types": [
-              "Vector"
+              "unknown"
             ]
           }
         ]
@@ -13808,7 +13815,7 @@
           {
             "name": "location",
             "types": [
-              "Vector"
+              "unknown"
             ]
           },
           {
@@ -13923,7 +13930,7 @@
           {
             "name": "location",
             "types": [
-              "Vector"
+              "unknown"
             ]
           }
         ]
@@ -13974,7 +13981,7 @@
           {
             "name": "location",
             "types": [
-              "Vector"
+              "unknown"
             ]
           },
           {
@@ -14293,7 +14300,7 @@
           {
             "name": "location",
             "types": [
-              "Vector"
+              "unknown"
             ]
           }
         ]
@@ -14310,7 +14317,7 @@
           {
             "name": "location",
             "types": [
-              "Vector"
+              "unknown"
             ]
           }
         ]
@@ -16035,6 +16042,16 @@
       {
         "kind": "function",
         "name": "GetModifierChangeAbilityValue",
+        "available": "both",
+        "abstract": true,
+        "args": [],
+        "returns": [
+          "nil"
+        ]
+      },
+      {
+        "kind": "function",
+        "name": "GetModifierConstantCasttime",
         "available": "both",
         "abstract": true,
         "args": [],
@@ -17988,6 +18005,36 @@
       },
       {
         "kind": "function",
+        "name": "GetModifierPropertyCustom1",
+        "available": "both",
+        "abstract": true,
+        "args": [],
+        "returns": [
+          "nil"
+        ]
+      },
+      {
+        "kind": "function",
+        "name": "GetModifierPropertyCustom2",
+        "available": "both",
+        "abstract": true,
+        "args": [],
+        "returns": [
+          "nil"
+        ]
+      },
+      {
+        "kind": "function",
+        "name": "GetModifierPropertyCustom3",
+        "available": "both",
+        "abstract": true,
+        "args": [],
+        "returns": [
+          "nil"
+        ]
+      },
+      {
+        "kind": "function",
         "name": "GetModifierPropertyForbidIllusions",
         "available": "both",
         "abstract": true,
@@ -18101,6 +18148,16 @@
         "args": [],
         "returns": [
           "float"
+        ]
+      },
+      {
+        "kind": "function",
+        "name": "GetModifierReplaceAttack",
+        "available": "both",
+        "abstract": true,
+        "args": [],
+        "returns": [
+          "nil"
         ]
       },
       {
@@ -19144,6 +19201,36 @@
       {
         "kind": "function",
         "name": "OnCleaveAttackLanded",
+        "available": "both",
+        "abstract": true,
+        "args": [],
+        "returns": [
+          "nil"
+        ]
+      },
+      {
+        "kind": "function",
+        "name": "OnCustom1",
+        "available": "both",
+        "abstract": true,
+        "args": [],
+        "returns": [
+          "nil"
+        ]
+      },
+      {
+        "kind": "function",
+        "name": "OnCustom2",
+        "available": "both",
+        "abstract": true,
+        "args": [],
+        "returns": [
+          "nil"
+        ]
+      },
+      {
+        "kind": "function",
+        "name": "OnCustom3",
         "available": "both",
         "abstract": true,
         "args": [],
@@ -23375,7 +23462,7 @@
           {
             "name": "location",
             "types": [
-              "Vector"
+              "unknown"
             ]
           },
           {
@@ -23863,7 +23950,7 @@
           {
             "name": "location",
             "types": [
-              "Vector"
+              "unknown"
             ]
           },
           {
@@ -28212,7 +28299,7 @@
           {
             "name": "arg2",
             "types": [
-              "Vector"
+              "unknown"
             ]
           },
           {
@@ -28265,7 +28352,7 @@
           {
             "name": "arg2",
             "types": [
-              "Vector"
+              "unknown"
             ]
           },
           {
@@ -30730,7 +30817,7 @@
           {
             "name": "location",
             "types": [
-              "Vector"
+              "unknown"
             ]
           }
         ]
@@ -31040,7 +31127,7 @@
           {
             "name": "arg1",
             "types": [
-              "Vector"
+              "unknown"
             ]
           }
         ]
@@ -31145,7 +31232,7 @@
           {
             "name": "arg1",
             "types": [
-              "Vector"
+              "unknown"
             ]
           }
         ]
@@ -32386,13 +32473,13 @@
           {
             "name": "mins",
             "types": [
-              "Vector"
+              "unknown"
             ]
           },
           {
             "name": "maxs",
             "types": [
-              "Vector"
+              "unknown"
             ]
           },
           {
@@ -32415,13 +32502,13 @@
           {
             "name": "mins",
             "types": [
-              "Vector"
+              "unknown"
             ]
           },
           {
             "name": "maxs",
             "types": [
-              "Vector"
+              "unknown"
             ]
           },
           {
@@ -33821,7 +33908,7 @@
           {
             "name": "offset",
             "types": [
-              "Vector"
+              "unknown"
             ]
           },
           {
@@ -33855,7 +33942,7 @@
           {
             "name": "vecPosition",
             "types": [
-              "Vector"
+              "unknown"
             ]
           }
         ]
@@ -34028,7 +34115,7 @@
           {
             "name": "origin",
             "types": [
-              "Vector"
+              "unknown"
             ]
           },
           {
@@ -34657,13 +34744,13 @@
           {
             "name": "start",
             "types": [
-              "Vector"
+              "unknown"
             ]
           },
           {
             "name": "end",
             "types": [
-              "Vector"
+              "unknown"
             ]
           }
         ]
@@ -34680,7 +34767,7 @@
           {
             "name": "arg1",
             "types": [
-              "Vector"
+              "unknown"
             ]
           },
           {
@@ -34709,13 +34796,13 @@
           {
             "name": "start",
             "types": [
-              "Vector"
+              "unknown"
             ]
           },
           {
             "name": "end",
             "types": [
-              "Vector"
+              "unknown"
             ]
           }
         ]
@@ -34737,7 +34824,7 @@
           {
             "name": "position",
             "types": [
-              "Vector"
+              "unknown"
             ]
           },
           {
@@ -34800,7 +34887,7 @@
           {
             "name": "arg1",
             "types": [
-              "Vector"
+              "unknown"
             ]
           }
         ]
@@ -34817,7 +34904,7 @@
           {
             "name": "position",
             "types": [
-              "Vector"
+              "unknown"
             ]
           },
           {
@@ -34846,7 +34933,7 @@
           {
             "name": "arg1",
             "types": [
-              "Vector"
+              "unknown"
             ]
           }
         ]
@@ -34999,7 +35086,7 @@
         "available": "server",
         "description": "Returns current location of projectile.",
         "returns": [
-          "Vector"
+          "unknown"
         ],
         "args": [
           {
@@ -35050,7 +35137,7 @@
         "available": "server",
         "description": "Returns current location of projectile.",
         "returns": [
-          "Vector"
+          "unknown"
         ],
         "args": [
           {
@@ -35737,7 +35824,7 @@
       {
         "name": "location",
         "types": [
-          "Vector"
+          "unknown"
         ]
       },
       {
@@ -36229,7 +36316,7 @@
       {
         "name": "location",
         "types": [
-          "Vector"
+          "unknown"
         ]
       },
       {
@@ -36253,7 +36340,7 @@
       {
         "name": "location",
         "types": [
-          "Vector"
+          "unknown"
         ]
       },
       {
@@ -36304,7 +36391,7 @@
       {
         "name": "origin",
         "types": [
-          "Vector"
+          "unknown"
         ]
       },
       {
@@ -36333,7 +36420,7 @@
       {
         "name": "location",
         "types": [
-          "Vector"
+          "unknown"
         ]
       },
       {
@@ -36373,7 +36460,7 @@
       {
         "name": "location",
         "types": [
-          "Vector"
+          "unknown"
         ]
       },
       {
@@ -36396,7 +36483,7 @@
       {
         "name": "location",
         "types": [
-          "Vector"
+          "unknown"
         ]
       },
       {
@@ -36500,7 +36587,7 @@
       {
         "name": "location",
         "types": [
-          "Vector"
+          "unknown"
         ]
       },
       {
@@ -36550,7 +36637,7 @@
       {
         "name": "location",
         "types": [
-          "Vector"
+          "unknown"
         ]
       },
       {
@@ -37701,7 +37788,7 @@
       {
         "name": "location",
         "types": [
-          "Vector"
+          "unknown"
         ]
       },
       {
@@ -37743,7 +37830,7 @@
       {
         "name": "arg2",
         "types": [
-          "Vector"
+          "unknown"
         ]
       },
       {
@@ -37882,7 +37969,7 @@
       {
         "name": "location",
         "types": [
-          "Vector"
+          "unknown"
         ]
       }
     ]
@@ -38026,7 +38113,7 @@
       {
         "name": "arg2",
         "types": [
-          "Vector"
+          "unknown"
         ]
       },
       {
@@ -38177,7 +38264,7 @@
       {
         "name": "location",
         "types": [
-          "Vector"
+          "unknown"
         ]
       },
       {
@@ -38229,13 +38316,13 @@
       {
         "name": "startPos",
         "types": [
-          "Vector"
+          "unknown"
         ]
       },
       {
         "name": "endPos",
         "types": [
-          "Vector"
+          "unknown"
         ]
       },
       {
@@ -38294,7 +38381,7 @@
       {
         "name": "location",
         "types": [
-          "Vector"
+          "unknown"
         ]
       },
       {
@@ -38529,7 +38616,7 @@
     "available": "server",
     "description": "Returns a location for the unit that is not already occupied.",
     "returns": [
-      "Vector"
+      "unknown"
     ],
     "args": [
       {
@@ -38541,7 +38628,7 @@
       {
         "name": "arg2",
         "types": [
-          "Vector"
+          "unknown"
         ]
       }
     ]
@@ -38633,7 +38720,7 @@
       {
         "name": "location",
         "types": [
-          "Vector"
+          "unknown"
         ]
       },
       {
@@ -38651,13 +38738,13 @@
     "available": "server",
     "description": "Returns the supplied position moved to the ground. Second parameter is an NPC for measuring movement collision hull offset.",
     "returns": [
-      "Vector"
+      "unknown"
     ],
     "args": [
       {
         "name": "location",
         "types": [
-          "Vector"
+          "unknown"
         ]
       },
       {
@@ -38901,7 +38988,7 @@
     "name": "GetTargetAOELocation",
     "available": "server",
     "returns": [
-      "Vector"
+      "unknown"
     ],
     "args": [
       {
@@ -38925,7 +39012,7 @@
       {
         "name": "arg4",
         "types": [
-          "Vector"
+          "unknown"
         ]
       },
       {
@@ -38953,7 +39040,7 @@
     "name": "GetTargetLinearLocation",
     "available": "server",
     "returns": [
-      "Vector"
+      "unknown"
     ],
     "args": [
       {
@@ -38977,7 +39064,7 @@
       {
         "name": "arg4",
         "types": [
-          "Vector"
+          "unknown"
         ]
       },
       {
@@ -39231,7 +39318,7 @@
       {
         "name": "location",
         "types": [
-          "Vector"
+          "unknown"
         ]
       }
     ]
@@ -40184,7 +40271,7 @@
       {
         "name": "location",
         "types": [
-          "Vector"
+          "unknown"
         ]
       },
       {
@@ -40941,7 +41028,7 @@
       {
         "name": "origin",
         "types": [
-          "Vector"
+          "unknown"
         ]
       },
       {
@@ -40976,7 +41063,7 @@
       {
         "name": "arg3",
         "types": [
-          "Vector"
+          "unknown"
         ]
       },
       {
@@ -41144,7 +41231,7 @@
       {
         "name": "pos",
         "types": [
-          "Vector"
+          "unknown"
         ]
       },
       {
