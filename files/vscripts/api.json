@@ -5095,6 +5095,16 @@
       },
       {
         "kind": "function",
+        "name": "OnOtherAbilityUpgraded",
+        "available": "server",
+        "description": "Other ability gained a level.",
+        "returns": [
+          "nil"
+        ],
+        "args": []
+      },
+      {
+        "kind": "function",
         "name": "OnOwnerDied",
         "available": "server",
         "description": "Caster died.",
@@ -5340,6 +5350,16 @@
         "description": "Returns true if this ability will generate magic stick charges for nearby enemies.",
         "returns": [
           "bool"
+        ],
+        "args": []
+      },
+      {
+        "kind": "function",
+        "name": "RefreshAbilityValues",
+        "available": "server",
+        "description": "Refreshes ability values, if any.",
+        "returns": [
+          "nil"
         ],
         "args": []
       },
@@ -8546,7 +8566,7 @@
         "available": "server",
         "description": "Performs an attack on a target.",
         "returns": [
-          "nil"
+          "float"
         ],
         "args": [
           {
@@ -13034,6 +13054,15 @@
       },
       {
         "kind": "function",
+        "name": "IsInStash",
+        "available": "server",
+        "returns": [
+          "bool"
+        ],
+        "args": []
+      },
+      {
+        "kind": "function",
         "name": "IsItem",
         "available": "both",
         "returns": [
@@ -14262,6 +14291,16 @@
       },
       {
         "kind": "function",
+        "name": "OnOtherAbilityUpgraded",
+        "available": "server",
+        "description": "Other ability gained a level.",
+        "returns": [
+          "nil"
+        ],
+        "args": []
+      },
+      {
+        "kind": "function",
         "name": "OnOwnerDied",
         "available": "server",
         "description": "Caster died.",
@@ -14386,6 +14425,16 @@
         "description": "Returns true if this ability will generate magic stick charges for nearby enemies.",
         "returns": [
           "bool"
+        ],
+        "args": []
+      },
+      {
+        "kind": "function",
+        "name": "RefreshAbilityValues",
+        "available": "server",
+        "description": "Refreshes ability values, if any.",
+        "returns": [
+          "nil"
         ],
         "args": []
       },
@@ -18055,6 +18104,16 @@
       },
       {
         "kind": "function",
+        "name": "GetModifierPropertyIgnoreForceTarget",
+        "available": "both",
+        "abstract": true,
+        "args": [],
+        "returns": [
+          "nil"
+        ]
+      },
+      {
+        "kind": "function",
         "name": "GetModifierPropertyManacostOverride",
         "available": "both",
         "abstract": true,
@@ -18271,6 +18330,16 @@
         "args": [],
         "returns": [
           "float"
+        ]
+      },
+      {
+        "kind": "function",
+        "name": "GetModifierSpellAmplify_PercentageUnique_2",
+        "available": "both",
+        "abstract": true,
+        "args": [],
+        "returns": [
+          "nil"
         ]
       },
       {
@@ -24715,6 +24784,15 @@
         "available": "server",
         "returns": [
           "bool"
+        ],
+        "args": []
+      },
+      {
+        "kind": "function",
+        "name": "RefreshAbilityValues",
+        "available": "server",
+        "returns": [
+          "nil"
         ],
         "args": []
       },
